@@ -1,0 +1,17 @@
+node_modules/
+_node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+build/
+# macOS
+.DS_Store
+android-build/mv2-982c359c146d40a8aa07d485a6d17409-signed.apk
+android-build/Expo_v2.23.2_apkpure.com.apk
