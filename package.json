@@ -147,5 +147,8 @@
     "deploy-set-version": "gulp deploy-set-version",
     "prettier": "prettier --write \"**/*\"",
     "prettier-check": "prettier --check \"**/*\""
+  },
+  "dependencies": {
+    "cesium": "^1.92.0"
   }
 }

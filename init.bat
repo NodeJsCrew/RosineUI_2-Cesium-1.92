@@ -1,0 +1,1 @@
+npm install cesium && npm install && start http://localhost:8080/veroviz && npm start

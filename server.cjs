@@ -193,15 +193,11 @@
     function () {
       if (argv.public) {
         console.log(
-          "Cesium development server running publicly.  Connect to http://localhost:%d/",
-          server.address().port
+          `Cesium development server running publicly.  Connect to http://localhost:${server.address().port}/`,
         );
       } else {
-        console.log(
-          "Cesium development server running locally.  Connect to http://localhost:%d/",
-          "Cesium development server running locally.  Connect to http://localhost:%d/verovizs",
-          server.address().port
-        );
+        console.log(` CESIUM DEMO   ->http://localhost:${server.address().port}/`,);
+        console.log(` ROSINE DEMO   ->http://localhost:${server.address().port}/veroviz`);
       }
     }
   );
